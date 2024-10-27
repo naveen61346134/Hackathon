@@ -3,7 +3,7 @@ import threading
 import subprocess
 import time
 
-HOST = '192.168.0.101'
+HOST = 'YOUR-IP-ADDRESS'
 PORT = 5000
 
 clients = set()
