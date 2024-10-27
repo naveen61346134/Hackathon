@@ -32,10 +32,14 @@ With Ambientation, your home becomes an extension of you, responding automatical
 - A Raspberry Pi or any Linux-based server setup.
 - Basic knowledge of your home network configuration.
 
-### Installation
+### Usage
 
-1. **Clone this repository:**
+- Connect to the same local network as the Ambientation Server.
+- The server will automatically adjust lights, fans, and other utilities as it detects presence in different rooms.
+- Enjoy an adaptive and responsive home environment where the audio follows you, ensuring you always have your favorite sounds in your vicinity!
 
-   ```bash
-   git clone https://github.com/your-username/ambientation-server.git
-   cd ambientation-server
+### Future Plans
+- Voice Control Integration: Incorporate voice commands for a truly hands-free experience.
+- Advanced Sensor Integration: Support for more sensors like temperature, humidity, and motion detectors.
+- Enhanced User Profiles: Tailor the experience to individual family members' preferences and schedules.
+- Third-party Service Integration: Expand to other music and smart home platforms beyond Spotify.
