@@ -11,7 +11,6 @@ CHUNK = 2048
 
 
 def start_librespot():
-    """Starts the librespot process with a pipe backend."""
     librespot_command = [
         "librespot",
         "--name", "Ambientation Server",
@@ -27,7 +26,6 @@ def start_librespot():
 
 
 def handle_client(client_socket):
-    """Handles communication with a connected client."""
     clients.add(client_socket)
     while True:
         try:
@@ -48,7 +46,6 @@ def cleanup_client(client_socket):
 
 
 def start_server():
-    """Starts the audio streaming server."""
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -71,7 +68,6 @@ def start_server():
 
 
 def stream_audio(librespot_process):
-    """Streams audio from the librespot process to connected clients."""
     while True:
         try:
             data = librespot_process.stdout.read(CHUNK)
