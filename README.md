@@ -33,50 +33,13 @@ With Ambientation, your home becomes an extension of you, responding automatical
 - A Raspberry Pi or any Linux-based server setup.
 - Basic knowledge of your home network configuration.
 
-### Installation
+### Usage
+- **Connect to the same local network as the Ambientation Server.
+- **The server will automatically adjust lights, fans, and other utilities as it detects presence in different rooms.
+- **Enjoy an adaptive and responsive home environment that adjusts as you move!
 
-1. **Clone this repository:**
-
-   ```bash
-   git clone https://github.com/your-username/ambientation-server.git
-   cd ambientation-server
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Configure Spotify API Keys:
-
-Go to the Spotify Developer Dashboard.
-Create a new app and get the Client ID and Secret.
-Add your API keys to the config.py file:
-python
-Copy code
-SPOTIFY_CLIENT_ID = 'your_client_id'
-SPOTIFY_CLIENT_SECRET = 'your_client_secret'
-Run the Server:
-
-bash
-Copy code
-python main.py
-The server should now be running and automatically detecting devices on your local network.
-
-Usage
-Connect to the same local network as the Ambientation Server.
-The server will automatically adjust lights, fans, and other utilities as it detects presence in different rooms.
-Enjoy an adaptive and responsive home environment that adjusts as you move!
-Future Plans
-Voice Control Integration: Incorporate voice commands for a truly hands-free experience.
-Advanced Sensor Integration: Support for more sensors like temperature, humidity, and motion detectors.
-Enhanced User Profiles: Tailor the experience to individual family members' preferences and schedules.
-Third-party Service Integration: Expand to other music and smart home platforms beyond Spotify.
-Contributing
-Contributions are welcome! If you have ideas for new features, optimizations, or want to help with bug fixes, feel free to open an issue or submit a pull request.
-
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/YourFeature).
-Open a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details
+### Future Plans
+- **Voice Control Integration: Incorporate voice commands for a truly hands-free experience.
+- **Advanced Sensor Integration: Support for more sensors like temperature, humidity, and motion detectors.
+- **Enhanced User Profiles: Tailor the experience to individual family members' preferences and schedules.
+- **Third-party Service Integration: Expand to other music and smart home platforms beyond Spotify.
