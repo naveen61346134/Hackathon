@@ -1,0 +1,4 @@
+mediapipe
+pyaudio
+opencv-contrib-python
+opencv-python
