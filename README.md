@@ -34,12 +34,12 @@ With Ambientation, your home becomes an extension of you, responding automatical
 - Basic knowledge of your home network configuration.
 
 ### Usage
-- **Connect to the same local network as the Ambientation Server.
-- **The server will automatically adjust lights, fans, and other utilities as it detects presence in different rooms.
-- **Enjoy an adaptive and responsive home environment that adjusts as you move!
+- Connect to the same local network as the Ambientation Server.
+- The server will automatically adjust lights, fans, and other utilities as it detects presence in different rooms.
+- Enjoy an adaptive and responsive home environment that adjusts as you move!
 
 ### Future Plans
-- **Voice Control Integration: Incorporate voice commands for a truly hands-free experience.
-- **Advanced Sensor Integration: Support for more sensors like temperature, humidity, and motion detectors.
-- **Enhanced User Profiles: Tailor the experience to individual family members' preferences and schedules.
-- **Third-party Service Integration: Expand to other music and smart home platforms beyond Spotify.
+- Voice Control Integration: Incorporate voice commands for a truly hands-free experience.
+- Advanced Sensor Integration: Support for more sensors like temperature, humidity, and motion detectors.
+- Enhanced User Profiles: Tailor the experience to individual family members' preferences and schedules.
+- Third-party Service Integration: Expand to other music and smart home platforms beyond Spotify.
