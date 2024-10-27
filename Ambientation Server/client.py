@@ -6,7 +6,7 @@ import mediapipe as mp
 from cv2 import rectangle, putText, flip, medianBlur, cvtColor, \
     VideoCapture, imshow, waitKey, destroyAllWindows, COLOR_BGR2RGB, FONT_HERSHEY_PLAIN
 
-SERVER_HOST = '192.168.0.101'
+SERVER_HOST = 'SERVER-IP-ADDRESS'
 SERVER_PORT = 5000
 
 FORMAT = pyaudio.paInt16
